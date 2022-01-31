@@ -1,0 +1,330 @@
+{
+  "113": {
+    "faction": "nil",
+    "name": "Albrich",
+    "position": "r",
+    "point": 2,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "114": {
+    "faction": "nil",
+    "name": "AssirevarAnahid",
+    "position": "r",
+    "point": 6,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "115": {
+    "faction": "nil",
+    "name": "BlackInfantryArcher1",
+    "position": "r",
+    "point": 10,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "116": {
+    "faction": "nil",
+    "name": "BlackInfantryArcher2",
+    "position": "r",
+    "point": 10,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "117": {
+    "faction": "nil",
+    "name": "CahirMawrDyffrynaepCeallach",
+    "position": "m",
+    "point": 6,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "118": {
+    "faction": "nil",
+    "name": "Cynthia",
+    "position": "r",
+    "point": 4,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "119": {
+    "faction": "nil",
+    "name": "EmhyrvarEmreisEmperorofNilfgaard",
+    "position":"l",
+    "point":0,
+    "effect":"TODO:",
+    "is_royal": false
+  },
+  "120": {
+    "faction": "nil",
+    "name": "EmhyrvarEmreisHisImperialMajesty",
+    "position":"l",
+    "point":0,
+    "effect":"TODO:",
+    "is_royal": false
+  },
+  "121": {
+    "faction": "nil",
+    "name": "EmhyrvarEmreistheRelentless",
+    "position":"l",
+    "point":0,
+    "effect":"TODO:",
+    "is_royal": false
+  },
+  "122": {
+    "faction": "nil",
+    "name": "EmhyrvarEmreistheWhiteFlame",
+    "position":"l",
+    "point":0,
+    "effect":"TODO:",
+    "is_royal": false
+  },
+  "123": {
+    "faction": "nil",
+    "name": "EtolianAuxiliaryArchers1",
+    "position": "r",
+    "point": 1,
+    "effect": "heal",
+    "is_royal": false
+  },
+  "124": {
+    "faction": "nil",
+    "name": "EtolianAuxiliaryArchers2",
+    "position": "r",
+    "point": 1,
+    "effect": "heal",
+    "is_royal": false
+  },
+  "125": {
+    "faction": "nil",
+    "name": "FrangillaVigo",
+    "position": "r",
+    "point": 6,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "126": {
+    "faction": "nil",
+    "name": "HeavyZerrikanianFireScorpion",
+    "position": "s",
+    "point": 10,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "127": {
+    "faction": "nil",
+    "name": "ImperaBrigadeGuard1",
+    "position": "m",
+    "point": 3,
+    "effect": "team",
+    "is_royal": false
+  },
+  "128": {
+    "faction": "nil",
+    "name": "ImperaBrigadeGuard2",
+    "position": "m",
+    "point": 3,
+    "effect": "team",
+    "is_royal": false
+  },
+  "129": {
+    "faction": "nil",
+    "name": "ImperaBrigadeGuard3",
+    "position": "m",
+    "point": 3,
+    "effect": "team",
+    "is_royal": false
+  },
+  "130": {
+    "faction": "nil",
+    "name": "ImperaBrigadeGuard4",
+    "position": "m",
+    "point": 3,
+    "effect": "team",
+    "is_royal": false
+  },
+  "131": {
+    "faction": "nil",
+    "name": "LethoofGulet",
+    "position": "m",
+    "point": 10,
+    "effect": "normal",
+    "is_royal": true
+  },
+  "132": {
+    "faction": "nil",
+    "name": "MennoCoehoorn",
+    "position": "m",
+    "point": 10,
+    "effect": "heal",
+    "is_royal": true
+  },
+  "133": {
+    "faction": "nil",
+    "name": "Morteisen",
+    "position": "m",
+    "point": 3,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "134": {
+    "faction": "nil",
+    "name": "MorvranVoorhis",
+    "position": "s",
+    "point": 10,
+    "effect": "normal",
+    "is_royal": true
+  },
+  "135": {
+    "faction": "nil",
+    "name": "NausicaaCavalryRider1",
+    "position": "m",
+    "point": 2,
+    "effect": "team",
+    "is_royal": false
+  },
+  "136": {
+    "faction": "nil",
+    "name": "NausicaaCavalryRider2",
+    "position": "m",
+    "point": 2,
+    "effect": "team",
+    "is_royal": false
+  },
+  "137": {
+    "faction": "nil",
+    "name": "NausicaaCavalryRider3",
+    "position": "m",
+    "point": 2,
+    "effect": "team",
+    "is_royal": false
+  },
+  "138": {
+    "faction": "nil",
+    "name": "Puttkammer",
+    "position": "r",
+    "point": 3,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "139": {
+    "faction": "nil",
+    "name": "Rainfarn",
+    "position": "m",
+    "point": 4,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "140": {
+    "faction": "nil",
+    "name": "RenualdaepMasten",
+    "position": "r",
+    "point": 5,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "141": {
+    "faction": "nil",
+    "name": "RottenMangonel",
+    "position": "s",
+    "point": 3,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "142": {
+    "faction": "nil",
+    "name": "ShilardFitz-Osterlen",
+    "position": "m",
+    "point": 7,
+    "effect": "spy",
+    "is_royal": false
+  },
+  "143": {
+    "faction": "nil",
+    "name": "SiegeEngineer",
+    "position": "s",
+    "point": 6,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "144": {
+    "faction": "nil",
+    "name": "SiegeTechnician",
+    "position": "s",
+    "point": 0,
+    "effect": "heal",
+    "is_royal": false
+  },
+  "145": {
+    "faction": "nil",
+    "name": "StefenSkellen",
+    "position": "m",
+    "point": 9,
+    "effect": "spy",
+    "is_royal": false
+  },
+  "146": {
+    "faction": "nil",
+    "name": "Sweers",
+    "position": "r",
+    "point": 2,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "147": {
+    "faction": "nil",
+    "name": "TiborEggebracht",
+    "position": "r",
+    "point": 10,
+    "effect": "normal",
+    "is_royal": true
+  },
+  "148": {
+    "faction": "nil",
+    "name": "Vanhemar",
+    "position": "r",
+    "point": 4,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "149": {
+    "faction": "nil",
+    "name": "VattierdeRideaux",
+    "position": "m",
+    "point": 4,
+    "effect": "spy",
+    "is_royal": false
+  },
+  "150": {
+    "faction": "nil",
+    "name": "Vreemde",
+    "position": "m",
+    "point": 2,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "151": {
+    "faction": "nil",
+    "name": "YoungEmissary1",
+    "position": "m",
+    "point": 5,
+    "effect": "team",
+    "is_royal": false
+  },
+  "152": {
+    "faction": "nil",
+    "name": "YoungEmissary2",
+    "position": "m",
+    "point": 5,
+    "effect": "team",
+    "is_royal": false
+  },
+  "153": {
+    "faction": "nil",
+    "name": "ZerrikanianFireScorpion",
+    "position": "s",
+    "point": 5,
+    "effect": "normal",
+    "is_royal": false
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "154": {
+    "faction": "mon",
+    "name": "Arachas1",
+    "position": "s",
+    "point": 6,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "155": {
+    "faction": "mon",
+    "name": "Arachas2",
+    "position": "m",
+    "point": 4,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "156": {
+    "faction": "mon",
+    "name": "Arachas3",
+    "position": "m",
+    "point": 4,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "157": {
+    "faction": "mon",
+    "name": "Arachas4",
+    "position": "m",
+    "point": 4,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "158": {
+    "faction": "mon",
+    "name": "Botchling",
+    "position": "m",
+    "point": 4,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "159": {
+    "faction": "mon",
+    "name": "CelaenoHarpy",
+    "position": "m",
+    "point": 2,
+    "effect": "agile",
+    "is_royal": false
+  },
+  "160": {
+    "faction": "mon",
+    "name": "Cockatrice",
+    "position": "r",
+    "point": 2,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "161": {
+    "faction": "mon",
+    "name": "Crone1",
+    "position": "m",
+    "point": 6,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "162": {
+    "faction": "mon",
+    "name": "Crone2",
+    "position": "m",
+    "point": 6,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "163": {
+    "faction": "mon",
+    "name": "Crone3",
+    "position": "m",
+    "point": 6,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "164": {
+    "faction": "mon",
+    "name": "Draug",
+    "position": "m",
+    "point": 10,
+    "effect": "normal",
+    "is_royal": true
+  },
+  "165": {
+    "faction": "mon",
+    "name": "EarthElemental",
+    "position": "s",
+    "point": 6,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "166": {
+    "faction": "mon",
+    "name": "Endrega",
+    "position": "r",
+    "point": 2,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "167": {
+    "faction": "mon",
+    "name": "EredinBringerofDeath",
+    "position": "l",
+    "point": 0,
+    "effect": "TODO:",
+    "is_royal": false
+  },
+  "168": {
+    "faction": "mon",
+    "name": "EredinCommanderoftheRedRiders",
+    "position": "l",
+    "point": 0,
+    "effect": "TODO:",
+    "is_royal": false
+  },
+  "169": {
+    "faction": "mon",
+    "name": "EredinDestroyerofWorlds",
+    "position": "l",
+    "point": 0,
+    "effect": "TODO:",
+    "is_royal": false
+  },
+  "170": {
+    "faction": "mon",
+    "name": "EredinKingoftheWildHunt",
+    "position": "l",
+    "point": 0,
+    "effect": "TODO:",
+    "is_royal": false
+  },
+  "171": {
+    "faction": "mon",
+    "name": "Fiend",
+    "position": "m",
+    "point": 6,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "172": {
+    "faction": "mon",
+    "name": "FireElemental",
+    "position": "s",
+    "point": 6,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "173": {
+    "faction": "mon",
+    "name": "Foglet",
+    "position": "m",
+    "point": 2,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "174": {
+    "faction": "mon",
+    "name": "Forktail",
+    "position": "m",
+    "point": 5,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "175": {
+    "faction": "mon",
+    "name": "Frightener",
+    "position": "m",
+    "point": 5,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "176": {
+    "faction": "mon",
+    "name": "Gargoyle",
+    "position": "r",
+    "point": 2,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "177": {
+    "faction": "mon",
+    "name": "Ghoul1",
+    "position": "m",
+    "point": 1,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "178": {
+    "faction": "mon",
+    "name": "Ghoul2",
+    "position": "m",
+    "point": 1,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "179": {
+    "faction": "mon",
+    "name": "Ghoul3",
+    "position": "m",
+    "point": 1,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "180": {
+    "faction": "mon",
+    "name": "GraveHag",
+    "position": "r",
+    "point": 5,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "181": {
+    "faction": "mon",
+    "name": "Griffin",
+    "position": "m",
+    "point": 5,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "182": {
+    "faction": "mon",
+    "name": "harpy",
+    "position": "m",
+    "point": 2,
+    "effect": "agile",
+    "is_royal": false
+  },
+  "183": {
+    "faction": "mon",
+    "name": "IceGiant",
+    "position": "s",
+    "point": 5,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "184": {
+    "faction": "mon",
+    "name": "Imlerith",
+    "position": "m",
+    "point": 10,
+    "effect": "normal",
+    "is_royal": true
+  },
+  "185": {
+    "faction": "mon",
+    "name": "Kayran",
+    "position": "m",
+    "point": 8,
+    "effect": "plus",
+    "is_royal": true
+  },
+  "186": {
+    "faction": "mon",
+    "name": "Leshen",
+    "position": "r",
+    "point": 10,
+    "effect": "normal",
+    "is_royal": true
+  },
+  "187": {
+    "faction": "mon",
+    "name": "Nekker1",
+    "position": "m",
+    "point": 2,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "188": {
+    "faction": "mon",
+    "name": "Nekker2",
+    "position": "m",
+    "point": 2,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "189": {
+    "faction": "mon",
+    "name": "Nekker3",
+    "position": "m",
+    "point": 2,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "190": {
+    "faction": "mon",
+    "name": "PlagueMaiden",
+    "position": "m",
+    "point": 5,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "191": {
+    "faction": "mon",
+    "name": "Vampire1",
+    "position": "m",
+    "point": 4,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "192": {
+    "faction": "mon",
+    "name": "Vampire2",
+    "position": "m",
+    "point": 4,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "193": {
+    "faction": "mon",
+    "name": "Vampire3",
+    "position": "m",
+    "point": 4,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "194": {
+    "faction": "mon",
+    "name": "Vampire4",
+    "position": "m",
+    "point": 4,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "195": {
+    "faction": "mon",
+    "name": "Vampire5",
+    "position": "m",
+    "point": 5,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "196": {
+    "faction": "mon",
+    "name": "Werewolf",
+    "position": "m",
+    "point": 5,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "197": {
+    "faction": "mon",
+    "name": "Wyvern",
+    "position": "r",
+    "point": 2,
+    "effect": "normal",
+    "is_royal": false
+  }
+}

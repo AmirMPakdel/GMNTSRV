@@ -1,0 +1,330 @@
+{
+  "72": {
+    "faction": "sco",
+    "name": "BarclayEls",
+    "position": "m",
+    "point": 6,
+    "effect": "agile",
+    "is_royal": false
+  },
+  "73": {
+    "faction": "sco",
+    "name": "CiaranaepEasnillien",
+    "position": "m",
+    "point": 3,
+    "effect": "agile",
+    "is_royal": false
+  },
+  "74": {
+    "faction": "sco",
+    "name": "DennisCranmer",
+    "position": "m",
+    "point": 6,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "75": {
+    "faction": "sco",
+    "name": "DolBlathannaArcher",
+    "position": "r",
+    "point": 4,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "76": {
+    "faction": "sco",
+    "name": "DolBlathannaScout1",
+    "position": "m",
+    "point": 6,
+    "effect": "agile",
+    "is_royal": false
+  },
+  "77": {
+    "faction": "sco",
+    "name": "DolBlathannaScout2",
+    "position": "m",
+    "point": 6,
+    "effect": "agile",
+    "is_royal": false
+  },
+  "78": {
+    "faction": "sco",
+    "name": "DolBlathannaScout3",
+    "position": "m",
+    "point": 6,
+    "effect": "agile",
+    "is_royal": false
+  },
+  "79": {
+    "faction": "sco",
+    "name": "DwarvenSkirmisher1",
+    "position": "m",
+    "point": 3,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "80": {
+    "faction": "sco",
+    "name": "DwarvenSkirmisher2",
+    "position": "m",
+    "point": 3,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "81": {
+    "faction": "sco",
+    "name": "DwarvenSkirmisher3",
+    "position": "m",
+    "point": 3,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "82": {
+    "faction": "sco",
+    "name": "Eithne",
+    "position": "r",
+    "point": 10,
+    "effect": "normal",
+    "is_royal": true
+  },
+  "83": {
+    "faction": "sco",
+    "name": "ElvenSkirmisher1",
+    "position": "r",
+    "point": 2,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "84": {
+    "faction": "sco",
+    "name": "ElvenSkirmisher2",
+    "position": "m",
+    "point": 2,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "85": {
+    "faction": "sco",
+    "name": "ElvenSkirmisher3",
+    "position": "m",
+    "point": 2,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "86": {
+    "faction": "sco",
+    "name": "FilavandrelaenFidhail",
+    "position": "m",
+    "point": 6,
+    "effect": "agile",
+    "is_royal": false
+  },
+  "87": {
+    "faction": "sco",
+    "name": "FrancescaFindabairDaisyoftheValley",
+    "position":"l",
+    "point":0,
+    "effect":"TODO:",
+    "is_royal": false
+  },
+  "88": {
+    "faction": "sco",
+    "name": "FrancescaFindabairPurebloodElf",
+    "position":"l",
+    "point":0,
+    "effect":"TODO:",
+    "is_royal": false
+  },
+  "89": {
+    "faction": "sco",
+    "name": "FrancescaFindabairQueenofDolBlathanna",
+    "position":"l",
+    "point":0,
+    "effect":"TODO:",
+    "is_royal": false
+  },
+  "90": {
+    "faction": "sco",
+    "name": "FrancescaFindabairtheBeautiful",
+    "position":"l",
+    "point":0,
+    "effect":"TODO:",
+    "is_royal": false
+  },
+  "91": {
+    "faction": "sco",
+    "name": "HavekarHealer1",
+    "position": "r",
+    "point": 0,
+    "effect": "heal",
+    "is_royal": false
+  },
+  "92": {
+    "faction": "sco",
+    "name": "HavekarHealer2",
+    "position": "r",
+    "point": 0,
+    "effect": "heal",
+    "is_royal": false
+  },
+  "93": {
+    "faction": "sco",
+    "name": "HavekarHealer3",
+    "position": "r",
+    "point": 0,
+    "effect": "heal",
+    "is_royal": false
+  },
+  "94": {
+    "faction": "sco",
+    "name": "HavekarSmuggler1",
+    "position": "m",
+    "point": 5,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "95": {
+    "faction": "sco",
+    "name": "HavekarSmuggler2",
+    "position": "m",
+    "point": 5,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "96": {
+    "faction": "sco",
+    "name": "HavekarSmuggler3",
+    "position": "m",
+    "point": 5,
+    "effect": "muster",
+    "is_royal": false
+  },
+  "97": {
+    "faction": "sco",
+    "name": "IdaEmeanaepSivney",
+    "position": "r",
+    "point": 6,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "98": {
+    "faction": "sco",
+    "name": "Iorveth",
+    "position": "r",
+    "point": 10,
+    "effect": "normal",
+    "is_royal": true
+  },
+  "99": {
+    "faction": "sco",
+    "name": "IsengrimFaolitarna",
+    "position": "m",
+    "point": 10,
+    "effect": "puls",
+    "is_royal": true
+  },
+  "100": {
+    "faction": "sco",
+    "name": "MahakamanDefender1",
+    "position": "m",
+    "point": 5,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "101": {
+    "faction": "sco",
+    "name": "MahakamanDefender2",
+    "position": "m",
+    "point": 5,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "102": {
+    "faction": "sco",
+    "name": "MahakamanDefender3",
+    "position": "m",
+    "point": 5,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "103": {
+    "faction": "sco",
+    "name": "MahakamanDefender4",
+    "position": "m",
+    "point": 5,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "104": {
+    "faction": "sco",
+    "name": "MahakamanDefender5",
+    "position": "m",
+    "point": 5,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "105": {
+    "faction": "sco",
+    "name": "Milva",
+    "position": "r",
+    "point": 10,
+    "effect": "plus",
+    "is_royal": false
+  },
+  "106": {
+    "faction": "sco",
+    "name": "Riordain",
+    "position": "r",
+    "point": 1,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "107": {
+    "faction": "sco",
+    "name": "Saesenthessis",
+    "position": "m",
+    "point": 10,
+    "effect": "normal",
+    "is_royal": true
+  },
+  "108": {
+    "faction": "sco",
+    "name": "Toruviel",
+    "position": "r",
+    "point": 2,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "109": {
+    "faction": "sco",
+    "name": "VriheddBrigadeRecruit",
+    "position": "r",
+    "point": 4,
+    "effect": "normal",
+    "is_royal": false
+  },
+  "110": {
+    "faction": "sco",
+    "name": "VriheddBrigadeVeteran1",
+    "position": "m",
+    "point": 5,
+    "effect": "agile",
+    "is_royal": false
+  },
+  "111": {
+    "faction": "sco",
+    "name": "VriheddBrigadeVeteran2",
+    "position": "m",
+    "point": 5,
+    "effect": "agile",
+    "is_royal": false
+  },
+  "112": {
+    "faction": "sco",
+    "name": "Yaevinn",
+    "position": "m",
+    "point": 6,
+    "effect": "agile",
+    "is_royal": false
+  }
+}

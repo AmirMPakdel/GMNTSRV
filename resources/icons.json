@@ -1,0 +1,37 @@
+{
+    "1":{
+        "name":"wolf_medal1",
+        "level":0,
+        "url":"5eb4a21f69f3c41fb8f8ecaa.png"
+    },
+    "2":{
+        "name":"garalt1",
+        "level":0,
+        "url":"5eb4b4efd7d74500205a19ad.jpg"
+    },
+    "3":{
+        "name":"garalt2",
+        "level":0,
+        "url":"5eb5e23775c2ee08c840d6fc.jpg"
+    },
+    "4":{
+        "name":"iorveth1",
+        "level":0,
+        "url":"5eb5e23775c2ee08c840d6fe.jpg"
+    },
+    "5":{
+        "name":"gaunter1",
+        "level":0,
+        "url":"5eb5e23775c2ee08c840d700.jpg"
+    },
+    "6":{
+        "name":"letho1",
+        "level":0,
+        "url":"5eb5e23775c2ee08c840d702.jpg"
+    },
+    "7":{
+        "name":"letho2",
+        "level":0,
+        "url":"5eb5e23775c2ee08c840d702.jpg"
+    }
+}
