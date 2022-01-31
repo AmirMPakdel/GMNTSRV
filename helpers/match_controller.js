@@ -14,7 +14,7 @@ const {calculate_row_score, setHorn, create_random_options,
 const {level2cards} = require('../resources/CardLevel');
 
 const NUMBER_OF_STARTING_CARDS = 10;
-const CHANGE_CARD_TIME = 500;// 0.5s
+const CHANGE_CARD_TIME = 15000;// 15s
 const TURN_TIME = 16000;// 16s
 const CHANGE_ROUND_BREAK = 2000;// 2s
 

@@ -10,7 +10,7 @@ const {getCard} = require("../resources/cards");
  * @property {string} number*@typedef decision *@property {Boolean} lock *@property {Card} card_object 
  * @property {Options} options *@typedef Options *@property {"m"|"r"|"s"} position *@property {string} target_card*/
 
-const MIN_WAIT_SEC = 2;
+const MIN_WAIT_SEC = 4;
 const MAX_WAIT_SEC = 8;
 
 function create_bot(player_xp){
