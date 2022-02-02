@@ -8,9 +8,6 @@ const PlayerAuth = require('./middlewares/PlayerAuth');
 const socket_handler = require('./helpers/socket_handler');
 const http_controllers = require('./controllers').http;
 const setup = require('./setup');
-const env = require('./env');
-let {socketPool, set_socket, get_socket} = require('./helpers/SocketPool');
-const bodyParser = require('body-parser');
 const Logger = require('./middlewares/Logger');
 
 app.use(Express.json()) // for parsing application/json
@@ -19,7 +16,9 @@ app.use(Express.urlencoded({extended: false})) // for parsing application/x-www-
 
 app.use(Logger);
 
-///////////////////////
+/////////////////////// authentication and profile
+
+app.get("/ping", (req,res)=>{res.send("pong!")});
 
 app.post("/api/register", http_controllers.register);
 
@@ -37,9 +36,7 @@ app.post("/api/get_iconList", UserAuth, http_controllers.get_iconList);
 
 app.get("/get_icon", http_controllers.get_icon);
 
-app.get("/test", (req,res)=>{res.send("Hi")})
-
-///////////////////////
+/////////////////////// friends
 
 app.post("/api/friend_request", UserAuth, http_controllers.friend_request);
 
@@ -53,7 +50,7 @@ app.post("/api/remove_friend", UserAuth, http_controllers.remove_friend);
 
 app.post("/api/get_friendsList", UserAuth, http_controllers.get_friendsList);
 
-///////////////////////
+/////////////////////// card decks
 
 app.post("/api/change_faction", UserAuth, http_controllers.change_faction);
 
@@ -61,7 +58,7 @@ app.post("/api/get_decks", UserAuth, http_controllers.get_decks);
 
 app.post("/api/set_decks", UserAuth, http_controllers.set_decks);
 
-///////////////////////
+/////////////////////// match
 
 app.post("/api/find_match", UserAuth, http_controllers.find_match);
 
@@ -79,7 +76,7 @@ app.post("/api/round_calloff", UserAuth, PlayerAuth, http_controllers.round_call
 
 app.post("/api/abandoning_game", UserAuth, PlayerAuth, http_controllers.abandoning_game);
 
-///////////////////////
+/////////////////////// bot
 
 app.post("/api/bot_info", UserAuth, http_controllers.bot_info);
 

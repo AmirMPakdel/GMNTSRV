@@ -3,6 +3,7 @@ const match_starter = require("./match_starter");
 let {socketPool} = require("../helpers/SocketPool");
 const Consts = require("../consts");
 
+//Singleton Design Pattern
 class MatchQueue{
 
     /**

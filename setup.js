@@ -14,7 +14,7 @@ const Setup = async (app, socket_server)=>{
 
     await setupDB();
 
-    if(env.FACK_DATA){
+    if(env.FAKE_DATA){
         
         await user_seed();
     }
