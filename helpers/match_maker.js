@@ -71,7 +71,7 @@ let match_maker_interval = setInterval(() => {
                             
                         }else{
 
-                            if(Math.random() > 0.1){//0.5
+                            if(Math.random() > 0.95){//0.5
                                 match_maker.play_with_bot(v);
                                 return true;
                             }
@@ -91,7 +91,7 @@ let match_maker_interval = setInterval(() => {
 
             let random = Math.random();
             console.log("random->"+random);
-            if(random > 0.1){//0.5
+            if(random > 0.95){//0.5
                 match_maker.play_with_bot(mq._Queue[0]);
             }
         }

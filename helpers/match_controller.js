@@ -17,6 +17,7 @@ const NUMBER_OF_STARTING_CARDS = 10;
 const CHANGE_CARD_TIME = 15000;// 15s
 const TURN_TIME = 16000;// 16s
 const CHANGE_ROUND_BREAK = 2000;// 2s
+const GAME_FINISH_LATENCY = 2000;// 2s
 
 const match_controller = {
 
@@ -38,13 +39,9 @@ const match_controller = {
             await user2.save();
         }
 
-        console.log(1);
-        match = match_controller.flip_coin(match)
-        console.log(2);
+        match = match_controller.flip_coin(match);
         match = match_controller.give_cards(match);
-        console.log(3);
         await match.save();
-        console.log(4);
         let resume = true;
 
         let p1_detail = await match_start_detail_extractor("p1", match);
@@ -52,8 +49,6 @@ const match_controller = {
             resume = false;
             match_controller.player_abandoned(match.p1_id, match, false);
         });
-
-        console.log(match.p2_id !== "bot");
 
         if(match.p2_id !== "bot"){
 
@@ -134,19 +129,19 @@ const match_controller = {
         match.p1_deck = p1_deck;
         match.p1_deck = p2_deck;
 
-        p1_cards.pop();
-        p2_cards.pop();
-        p1_cards.pop();
-        p2_cards.pop();
-        p1_cards.pop();
-        p2_cards.pop();
+        // p1_cards.pop();
+        // p2_cards.pop();
+        // p1_cards.pop();
+        // p2_cards.pop();
+        // p1_cards.pop();
+        // p2_cards.pop();
 
-        p1_cards.push("72");
-        p2_cards.push("72");
-        p1_cards.push("18");
-        p2_cards.push("18");
-        p1_cards.push("7");
-        p2_cards.push("7");
+        // p1_cards.push("72");
+        // p2_cards.push("72");
+        // p1_cards.push("18");
+        // p2_cards.push("18");
+        // p1_cards.push("7");
+        // p2_cards.push("7");
 
         match.p1_cards = p1_cards;
         match.p2_cards = p2_cards;
@@ -539,13 +534,17 @@ const match_controller = {
         let p1_result = match_result_extractor(match.p1_id, match);
         p1_result.level_diff_bounce = p1_level_diff_bounce;
         p1_result.unused_cards_bonuce = p1_unused_cards_bonuce;
-        user_emit(match.p1_id, "game_finished", p1_result);
         await match_controller.modify_decks(user1._id, user1.xp, p1_gain_xp);
         //adding xp to user
         user1.xp += p1_gain_xp;
         user1.status = "online";
         user1.current_match = "none";
         await user1.save();
+
+        //emit "game_finished" to player1
+        setTimeout((match, p1_result)=>{
+            user_emit(match.p1_id, "game_finished", p1_result);
+        }, GAME_FINISH_LATENCY, match, p1_result);
 
         if(match.p2_id !== "bot"){
             let user2 = await User.findOne({_id:match.p2_id});
@@ -556,13 +555,17 @@ const match_controller = {
             let p2_result = match_result_extractor(match.p2_id, match);
             p2_result.level_diff_bounce = p2_level_diff_bounce;
             p2_result.unused_cards_bonuce = p2_unused_cards_bonuce;
-            user_emit(match.p2_id, "game_finished", p2_result);
             await match_controller.modify_decks(user2._id, user2.xp, p2_gain_xp);
             //adding xp to user
             user2.xp += p2_gain_xp;
             user2.status = "online";
             user1.current_match = "none";
             await user2.save();
+
+            //emit "game_finished" to player2
+            setTimeout((match, p2_result)=>{
+                user_emit(match.p2_id, "game_finished", p2_result);
+            }, GAME_FINISH_LATENCY, match, p2_result);
         }
         
         await match.save();
