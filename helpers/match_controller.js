@@ -30,8 +30,6 @@ const match_controller = {
         user1.current_match = match_id.toString();
         await user1.save();
 
-        console.log(match.p2_id !== "bot");
-
         if(match.p2_id !== "bot"){
             let user2 = await User.findOne({_id:match.p2_id});
             user2.status = "in-match";
@@ -129,6 +127,10 @@ const match_controller = {
         match.p1_deck = p1_deck;
         match.p1_deck = p2_deck;
 
+        //mark the arrays modified for saving changes in db
+        match.markModified("p1_deck");
+        match.markModified("p2_deck");
+
         // p1_cards.pop();
         // p2_cards.pop();
         // p1_cards.pop();
@@ -162,7 +164,9 @@ const match_controller = {
             }
 
             if(match[p+"_change_card_left"] != 0){
+
                 let deck = match[p+"_deck"];
+
                 let cards = match[p+"_cards"];
         
                 let card_index = cards.indexOf(card_number);
@@ -178,8 +182,12 @@ const match_controller = {
                 cards.push(new_card_from_deck);
         
                 match[p+"_deck"] = deck;
+
+                match.markModified(p+"_deck");
         
                 match[p+"_cards"] = cards;
+
+                match.markModified(p+"_cards");
     
                 match[p+"_change_card_left"]--;
         
